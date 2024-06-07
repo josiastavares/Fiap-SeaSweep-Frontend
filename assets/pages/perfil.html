@@ -9,6 +9,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/padrao.css">
+    <link rel="stylesheet" href="../css/perfil.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <nav class="menu">
             <a href="./dashboard.html">
                 <li class="item-menu dashboard">
-                    <i class="fa-regular fa-house"></i>
+                    <i class="fa-solid fa-house"></i>
                     Dashboard
                 </li>
             </a>
@@ -37,8 +38,24 @@
             </a>
 
         </nav>
-        <div></div>
-        <div></div>
+        <div class="dados-usuario">
+            <div>
+                <img src="../img/foto-perfil.png" alt="">
+                <p class="alterar-foto">Alterar foto</p>
+                <form action="">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="nome" name="nome" id="nome" placeholder="Digite seu nome">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="email" name="email" id="email" placeholder="Digite seu E-mail">
+                    <label for="senha">Alterar senha</label>
+                    <input type="password" class="senha" name="senha" id="senha" placeholder="Digite sua nova senha">
+                    <label for="confirm-senha">Confimar senha</label>
+                    <input type="password" class="senha" name="confirm-senha" id="confim-senha" placeholder="Repita sua nova senha">
+                    <button type="submit">Atualizar</button>
+                </form>
+            </div>
+
+        </div>
     </main>
     <footer>
         <i class="fa-regular fa-copyright"></i>
