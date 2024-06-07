@@ -1,16 +1,16 @@
 .parceiros {
     background: #1229404D;
-    margin-left: 10px;
     padding: 16px;
 }
 
 .itens-parceiros {
-    width: 70%;
+    width: 75%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 20px;
+    justify-content: center;
+    gap: 4%;
+    row-gap: 25px;
 }
 
 .item-parceiro {
@@ -19,15 +19,28 @@
     width: 48%;
     background: #1229404D;
     padding: 36px 20px;
+    border-radius: 12px;
 }
 
-.item-parceiros-txt {
+.item-parceiros-txt {}
+
+.nome-parceiro {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.descricao-parceiro {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
 
 }
 
-.nome-parceiro {}
-
-
-.descricao-parceiro {}
-
-.item-parceiro>img {}
+.item-parceiro>img {
+    width: 150px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
