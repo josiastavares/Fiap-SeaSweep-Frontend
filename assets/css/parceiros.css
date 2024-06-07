@@ -1,0 +1,33 @@
+.parceiros {
+    background: #1229404D;
+    margin-left: 10px;
+    padding: 16px;
+}
+
+.itens-parceiros {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.item-parceiro {
+    display: flex;
+    gap: 20px;
+    width: 48%;
+    background: #1229404D;
+    padding: 36px 20px;
+}
+
+.item-parceiros-txt {
+
+}
+
+.nome-parceiro {}
+
+
+.descricao-parceiro {}
+
+.item-parceiro>img {}

@@ -1,0 +1,123 @@
+.dashboard {
+    background: #1229404D;
+    margin-left: 10px;
+    padding: 16px;
+}
+
+.locais {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background: #1229404D;
+    border-radius: 12px;
+    padding: 0 15px;
+}
+
+.item-locais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+}
+
+.item-locais:hover {
+    cursor: pointer;
+}
+
+.locais-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nome-locais {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.id-locais {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.item-locais>i {
+    font-size: 18px;
+}
+
+.dados-local {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.kg-coletados {
+    min-height: 140px;
+    width: 48%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #1229404D;
+    padding: 32px 74px;
+    border-radius: 12px;
+}
+
+.kg-coletados>img {}
+
+.kg-coletados>p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.identificacao-local {
+    min-height: 140px;
+    width: 48%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #1229404D;
+    padding: 32px 10px;
+    border-radius: 12px;
+}
+
+.identificacao-local > img{
+    width:35%;
+}
+
+.nome-local {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.id-local {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.mapa-local {
+    width: 100%;
+    height: 280px;
+    background-image: url(../img/mapa-local.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+
