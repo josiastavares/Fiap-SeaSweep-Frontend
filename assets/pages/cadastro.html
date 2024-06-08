@@ -19,24 +19,24 @@
         <div class="img cadastro"></div>
         <div class="conteudo">
             <h1>Crie sua conta</h1>
-            <form action="">
-                <input type="email" class="email" name="email" id="email" placeholder="E-mail" required>
-                <input type="password" class="senha" name="senha" id="senha" placeholder="Senha" required>
+            <form id="cadastro-form">
+                <input type="text" class="nome" name="nome" id="nome" placeholder="Nome" required autocomplete="name">
+                <input type="email" class="email" name="email" id="email" placeholder="E-mail" required autocomplete="email">
+                <input type="password" class="senha" name="senha" id="senha" placeholder="Senha" required autocomplete="new-password">
                 <div class="manter-conectado-caixa">
-                        <input type="checkbox" name="manter-conectado" class="manter-conectado" id="manter-conectado"
-                            value="manter-conectado">
-                        <label for="manter-conectado" class="manter-conectado-txt">Manter Conectado</label>
+                    <input type="checkbox" name="manter-conectado" class="manter-conectado" id="manter-conectado" value="manter-conectado">
+                    <label for="manter-conectado" class="manter-conectado-txt">Manter Conectado</label>
                 </div>
-                <button type="submit">Acessar</button>
+                <button type="submit">Cadastrar</button>
             </form>
-            <p class="cadastre-se">Já tem uma conta? <a href=""> Acesse</a></p>
+            <p class="cadastre-se">Já tem uma conta? <a href="login.html">Acesse</a></p>
         </div>
     </main>
     <footer>
         <i class="fa-regular fa-copyright"></i>
         <p>2024 SeaSweep | Todos os direitos reservados</p>
     </footer>
-
+    <script src="../../js/cadastro.js"></script>
 </body>
 
 </html>
