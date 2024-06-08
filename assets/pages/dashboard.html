@@ -10,6 +10,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/dashboard.css">
     <link rel="stylesheet" href="../css/padrao.css">
+    <style>
+        .mapa-local {
+            width: 100%;
+            height: 400px; /* Ajuste o valor conforme necessário */
+        }
+    </style>
 </head>
 
 <body>
@@ -36,7 +42,6 @@
                     Perfil
                 </li>
             </a>
-
         </nav>
         <div class="locais">
             <div class="item-locais">
@@ -74,7 +79,6 @@
                 </div>
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
-
         </div>
         <div class="dados-local">
             <div class="kg-coletados">
@@ -88,15 +92,17 @@
                     <p class="id-local">IMO9863297 2020</p>
                 </div>
             </div>
-            <div class="mapa-local"></div>
+            <div class="mapa-local" id="map"></div>
         </div>
     </main>
     <footer>
+        <br>
         <i class="fa-regular fa-copyright"></i>
         <p>2024 SeaSweep | Todos os direitos reservados</p>
     </footer>
     <script src="../../script.js"></script>
-
+    <script src="../../js/maps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDm_VQdT-bQaGkJR0BAd86y-jR3xiSn18I&callback=initMap" async defer></script>
 </body>
 
 </html>
